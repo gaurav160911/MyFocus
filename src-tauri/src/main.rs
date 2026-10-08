@@ -156,6 +156,13 @@ fn main() {
         .add_item(CustomMenuItem::new("quit", "Quit My Focus"));
 
     tauri::Builder::default()
+        .plugin(tauri_plugin_single_instance::init(|app, _argv, _cwd| {
+            if let Some(window) = app.get_window("main") {
+                window.unminimize().unwrap();
+                window.show().unwrap();
+                window.set_focus().unwrap();
+            }
+        }))
         .system_tray(SystemTray::new().with_menu(tray_menu))
         .invoke_handler(tauri::generate_handler![
             resize_widget,

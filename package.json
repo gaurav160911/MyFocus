@@ -1,6 +1,6 @@
 {
   "name": "my-focus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small floating desktop widget for Windows that answers one question: what should I work on right now?",
   "author": "banasa",
   "license": "MIT",
