@@ -31,7 +31,7 @@ You finish the task. The next one appears. That's the whole loop.
 Small enough to leave on screen all day next to VS Code, Chrome or Discord. It resizes itself to fit its content, so it is never bigger than what it has to say.
 
 <div align="center">
-  <img src="docs/screenshots/widget.png" alt="The floating widget showing one focus task with a Complete button and a collapsed Next up list" width="380">
+  <img src="assets/widget.png" alt="The floating widget showing one focus task with a Complete button and a collapsed Next up list" width="380">
 </div>
 
 ### Daily — the working view
@@ -39,7 +39,7 @@ Small enough to leave on screen all day next to VS Code, Chrome or Discord. It r
 One dominant focus card, everything else secondary. The line on the right of "FOCUS NOW" tells you *why* this task was picked, so the ranking is never a black box.
 
 <div align="center">
-  <img src="docs/screenshots/daily.png" alt="The Daily page with a focus card for the task dsa and one other pending task" width="760">
+  <img src="assets/daily.png" alt="The Daily page with a focus card for the task dsa and one other pending task" width="760">
 </div>
 
 ### Long-term — the direction view
@@ -47,7 +47,7 @@ One dominant focus card, everything else secondary. The line on the right of "FO
 Goals live apart from today's work so they never compete with urgent tasks. Their percentage is computed from the milestones and tasks you attach — there is no field anywhere in the app for typing a progress number.
 
 <div align="center">
-  <img src="docs/screenshots/long-term.png" alt="The Long-term page showing a goal called software engineer at 0 percent with a milestone input" width="760">
+  <img src="assets/long-term.png" alt="The Long-term page showing a goal called software engineer at 0 percent with a milestone input" width="760">
 </div>
 
 ---
